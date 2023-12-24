@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.box {
+    display: inline-block; /* Display the boxes side by side */
+    width: calc(33.33% - 20px); /* Set the width of each box (adjust as needed) */
+    margin: 10px; /* Add some spacing between the boxes */
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top:300px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.count {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Colors for each box */
+.box:nth-child(1) {
+    background-color: rgba(126, 223, 126, 0.937);
+}
+
+.box:nth-child(2) {
+    background-color: rgba(126, 223, 126, 0.937);
+}
+
+.box:nth-child(3) {
+    background-color: rgba(126, 223, 126, 0.937);
+}

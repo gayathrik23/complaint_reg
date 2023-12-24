@@ -1,0 +1,39 @@
+/* App.css */
+
+/* Background image */
+.background-image {
+    background-image: url('https://cdn.dribbble.com/users/1067746/screenshots/6002017/complaint_4x.jpg?compress=1&resize=1000x750');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  /* Container for buttons */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  /* Styling for navigation buttons */
+  .nav-button {
+    background-color:rgb(12, 218, 12);
+    color: white;
+    padding: 50px 100px;
+    font-size: 36px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  

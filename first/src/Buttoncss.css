@@ -1,0 +1,117 @@
+/* src/components/ButtonPage.css */
+/* .button-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .raise-complaint-button,
+  .complaint-history-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .raise-complaint-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .complaint-history-button {
+    background-color: #28a745;
+    color: white;
+  }
+   */
+
+
+   /* src/components/ButtonPage.css */
+/* .button-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.raise-complaint-button,
+.complaint-history-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.raise-complaint-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.complaint-history-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.raise-complaint-button:hover,
+.complaint-history-button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+} 
+*/
+/* src/components/ButtonPage.css */
+.button-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.raise-complaint-button,
+.complaint-history-button {
+  padding: 10px 20px;
+  font-size: 18px; /* Increase button text size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underlines */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.raise-complaint-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.complaint-history-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.raise-complaint-button:hover,
+.complaint-history-button:hover {
+  background-color: #0056b3; /* Darker blue or #24a141 for darker green on hover */
+  transform: scale(1.05); /* Scale up the button on hover */
+}

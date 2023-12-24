@@ -1,0 +1,24 @@
+/* Navbar.css */
+
+/* Navbar.css */
+
+.navbar {
+    background-color: #4CAF50; /* Green shade */
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo i {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin-right: 10px; /* Add spacing between the icon and text */
+  }
+  
+  .navbar-logo span {
+    flex-grow: 1; /* Push the text to the left */
+  }
+  
